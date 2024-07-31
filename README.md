@@ -1,7 +1,7 @@
 # Neural_Networks_2
 # Disease Classification using Deep Learning
 
-##Table of Contents
+## Table of Contents
 
 Introduction
 Team Members
@@ -19,14 +19,14 @@ Introduction
 
 This project involves the classification of healthy and unhealthy leaf images using various deep learning techniques. The work includes extensive data preprocessing, exploratory data analysis, model training with data augmentation, and the use of transfer learning and ensembling methods to improve classification accuracy.
 
-##Team Members
+## Team Members
 
 Mohammad Amiri (10887256)
 Sara Limooee (100886949)
 Dorsa Moadeli (10926114)
 Mohamed Shoala (10871548)
 
-##Project Structure
+## Project Structure
 
 EDA-2.ipynb: Notebook containing the Exploratory Data Analysis.
 Baseline_models-2.ipynb: Notebook for training baseline models.
@@ -34,9 +34,9 @@ Transfer_Learning.ipynb: Notebook for implementing transfer learning.
 ENSAMBLING.ipynb: Notebook for ensembling models.
 HW#1_report-2.pdf: Project report detailing methodology and results.
 
-##Setup and Installation
+## Setup and Installation
 
-###Clone the repository:
+### Clone the repository:
 ```
 git clone <repository_url>
 cd <repository_directory>
@@ -59,7 +59,7 @@ Exploratory Data Analysis (EDA)
 
 EDA was conducted to understand the dataset distribution and identify potential issues such as imbalance and outliers. Details are available in EDA-2.ipynb.
 
-##Model Training and Evaluation
+## Model Training and Evaluation
 
 Several models were trained and evaluated, including:
 
@@ -67,7 +67,7 @@ Simple Convolutional Neural Network (CNN)
 Transfer learning models such as MobileNetV2, EfficientNetB0, and Xception
 Data augmentation techniques like Random Brightness and Random Translation were applied to the training data to prevent overfitting.
 
-##Ensembling
+## Ensembling
 
 Ensembling involved training multiple models and combining their predictions to improve accuracy. Methods included:
 
@@ -78,18 +78,18 @@ Self-Supervised Learning
 
 Self-supervised learning was attempted using the SIMCLR method to enhance model performance by leveraging contrastive learning.
 
-##Results
+## Results
 
 The best performing models and their accuracies are documented in the project report HW#1_report-2.pdf. The final ensemble model achieved an accuracy of 79% in local testing and 75% on the server.
 
-##Contributions
+## Contributions
 
 Dorsa and Mohamed: Data refinement and EDA
 Mohammad: Outlier detection and initial model definitions
 Sara: Data augmentation and model experiments
 Collective Effort: Model fine-tuning and report preparation
 
-##Acknowledgments
+## Acknowledgments
 
 We acknowledge the guidance and support provided by our course instructors at Politecnico di Milano.
 
