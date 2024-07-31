@@ -25,6 +25,7 @@ Mohammad Amiri (10887256)
 Sara Limooee (100886949)
 Dorsa Moadeli (10926114)
 Mohamed Shoala (10871548)
+
 Project Structure
 
 EDA-2.ipynb: Notebook containing the Exploratory Data Analysis.
@@ -35,18 +36,15 @@ HW#1_report-2.pdf: Project report detailing methodology and results.
 Setup and Installation
 
 Clone the repository:
-sh
-Copy code
+
 git clone <repository_url>
 cd <repository_directory>
 Create and activate a virtual environment:
-sh
-Copy code
+
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install the required packages:
-sh
-Copy code
+
 pip install -r requirements.txt
 Data Preparation
 
